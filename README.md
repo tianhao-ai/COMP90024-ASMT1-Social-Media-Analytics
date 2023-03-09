@@ -6,21 +6,21 @@ This program counts the number of tweets made by different author ids in a JSON 
 # Prerequisites
 To run this program, you will need:
 
-*Python 3.x
-*mpi4py (can be installed using pip)
-*Open MPI
+* Python 3.x
+* mpi4py (can be installed using pip)
+* Open MPI
 
 You can install Open MPI on macOS using Homebrew:
 
-```bash 
+```
 brew install openmpi
-```bash
+```
 
 You can install mpi4py using pip. Open Terminal and run the following command:
 
-```Terminal 
+```
 pip install mpi4py
-```Terminal
+```
 
 # Usage
 To run the program, first clone the repository:
