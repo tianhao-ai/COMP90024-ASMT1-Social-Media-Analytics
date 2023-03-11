@@ -1,6 +1,6 @@
-# ccc-assignment1
+# Cluster and Cloud Computing Assignment 1 – Social Media Analytics 
 
-# Counting tweets using MPI
+# Counting Tweets
 This program counts the number of tweets made by different author ids in a JSON file using MPI (Message Passing Interface) to distribute the computation across multiple processes.
 
 # Prerequisites
