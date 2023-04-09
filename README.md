@@ -25,6 +25,10 @@ You can install mpi4py using pip. Open Terminal and run the following command:
 ```
 pip install mpi4py
 ```
+# Overview
+
+Here is a working pipeline of `twitterSearch.py`: 
+![MPI Pipeline](mpi_pipeline.png)
 
 # Usage
 To run the program, first clone the repository or directly download the zip file:
@@ -90,7 +94,7 @@ Once your job runs successfully, you should have output file in your home file i
 
 As last, we prepare a file call `<visualization.ipynb>`, the data use in `<visualization.ipynb>` are diretly retrieve from the file `job_n_output.txt`, you could run from top to down to see how the `<twitterSearch.py>` performs in `<bigTwitter.json>`, which is a 18.79GB+ Json files.(Note: you might not access to `smallTwitter.json` and `bigTwitter.json` file if you doesn't have access to Spartan)
     
-You also could check the `<mpi_pipeline.png>` and `<report.pdf>` to help understand this task
+You also could check the `<report.pdf>` to help understand this task
     
 # Acknowledgments
 This program was created as a project for COMP90024 Cluster and Cloud Computing at University of Melbourne. Special thanks to Prof.Richard Sinnott for their guidance and support.
