@@ -78,9 +78,9 @@ This command would submit the <job1.slurm> to cluster, you could replace the fil
     
 Once your job runs successfully, you should have output file in your home file in your cluster, the following file is the output from the configuration mention above:
     
-```job_1_output.txt``` : The result of use configuration of 1 node 1 core to execute the twitterSearch.py
-```job_2_output.txt``` : The result of use configuration of 1 node 8 core to execute the twitterSearch.py
-```job_3_output.txt``` : The result of use configuration of 2 node 8 core to execute the twitterSearch.py(4 core per node)  
+* ```job_1_output.txt``` : The result of use configuration of 1 node 1 core to execute the twitterSearch.py
+* ```job_2_output.txt``` : The result of use configuration of 1 node 8 core to execute the twitterSearch.py
+* ```job_3_output.txt``` : The result of use configuration of 2 node 8 core to execute the twitterSearch.py(4 core per node)  
     
 (Note: it might be return a `<job_n_error.txt>`, if some error is raised)
 
