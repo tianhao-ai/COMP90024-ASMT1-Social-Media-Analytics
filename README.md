@@ -9,6 +9,9 @@ To run this program, you will need:
 * Python 3.x
 * mpi4py (can be installed using pip)
 * Open MPI
+* Json
+* ijson
+* Pandas only for visualize the result
 * plotly only for visualize the result
 
 You can install Open MPI on macOS using Homebrew:
