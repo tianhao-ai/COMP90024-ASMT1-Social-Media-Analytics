@@ -75,6 +75,10 @@ Here is an example to submit the slurm script, assume you are login to a cluster
 ```sbatch job1.slurm```
 
 This command would submit the <job1.slurm> to cluster, you could replace the filename to your own slurm script, or other slurm script in this file
+
+If you face a problem about using ijson in a hpc cluster, you could upload the file `install_ijson.slurm` to your task diretory, and run it by
+
+```sbatch install_ijson.slrum```
     
 Once your job runs successfully, you should have output file in your home file in your cluster, the following file is the output from the configuration mention above:
     
