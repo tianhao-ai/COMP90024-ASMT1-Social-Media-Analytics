@@ -50,7 +50,7 @@ If you cannot run the above command you could have tried following:
     
 ```mpirun -n 2 python twitterSearch.py```  
 
-Or change <python> to <python3> 
+Or change ```python``` to ```python3```
     
 The program will count the 1. number of tweets made by different author ids, 2. The number of tweets made by different great capital cities, 3. The number of different unique capital cities tweets by author in the <file_name.json> file and present the top 10.
 
