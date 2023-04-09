@@ -44,11 +44,11 @@ and replace <file_name.json> with the json file you want to search.
 
 Here's an example of how to run the program with 2 processes about file <tinyTwitter.json>:
 
-```mpiexec -n 2 python twitterSearch.py```
+```mpiexec -n 2 python twitterSearch.py tinyTwitter.json```
 
 If you cannot run the above command you could have tried following:
     
-```mpirun -n 2 python twitterSearch.py```  
+```mpirun -n 2 python twitterSearch.py tinyTwitter.json```  
 
 Or change ```python``` to ```python3```
     
@@ -81,7 +81,7 @@ Once your job runs successfully, you should have output file in your home file i
     
 (Note: it might be return a <job_n_error.txt>, if some error is raised)
 
-As last, we prepare a file call <visualization.ipynb>, you could run from top to down to see how the <twitterSearch.py> performs in <bigTwitter.json>, which is a 18.79GB+ Json files.(Note: you might not access this file if you doesn't have access to Spartan)
+As last, we prepare a file call <visualization.ipynb>, you could run from top to down to see how the <twitterSearch.py> performs in <bigTwitter.json>, which is a 18.79GB+ Json files.(Note: you might not access to smallTwitter.json and bigTwitter.json file if you doesn't have access to Spartan)
     
 You also could check the <mpi_pipeline.png> and <report.pdf> to help understand this task
     
