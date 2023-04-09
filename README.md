@@ -66,9 +66,9 @@ And also you could upload a slurm script to the cluster, because you might need 
 ```scp <your_slurm_script.slurm> your_username@hpc_address:/home/username```
     
 This task have three slurm script already done for testing:
-```job1.slurm``` : use configuration of 1 node 1 core to execute the twitterSearch.py
-```job2.slurm``` : use configuration of 1 node 8 core to execute the twitterSearch.py
-```job3.slurm``` : use configuration of 2 node 8 core to execute the twitterSearch.py(4 core per node) 
+* ```job1.slurm``` : use configuration of 1 node 1 core to execute the twitterSearch.py
+* ```job2.slurm``` : use configuration of 1 node 8 core to execute the twitterSearch.py
+* ```job3.slurm``` : use configuration of 2 node 8 core to execute the twitterSearch.py(4 core per node) 
 
 Here is an example to submit the slurm script, assume you are login to a cluster
 
