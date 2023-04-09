@@ -84,7 +84,7 @@ Once your job runs successfully, you should have output file in your home file i
     
 (Note: it might be return a `<job_n_error.txt>`, if some error is raised)
 
-As last, we prepare a file call `<visualization.ipynb>`, you could run from top to down to see how the `<twitterSearch.py>` performs in `<bigTwitter.json>`, which is a 18.79GB+ Json files.(Note: you might not access to `smallTwitter.json` and `bigTwitter.json` file if you doesn't have access to Spartan)
+As last, we prepare a file call `<visualization.ipynb>`, the data use in `<visualization.ipynb>` are diretly retrieve from the file `job_n_output.txt`, you could run from top to down to see how the `<twitterSearch.py>` performs in `<bigTwitter.json>`, which is a 18.79GB+ Json files.(Note: you might not access to `smallTwitter.json` and `bigTwitter.json` file if you doesn't have access to Spartan)
     
 You also could check the `<mpi_pipeline.png>` and `<report.pdf>` to help understand this task
     
