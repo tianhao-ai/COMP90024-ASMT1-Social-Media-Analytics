@@ -1,0 +1,117 @@
+Rank	Author Id          	Number of Tweets Made
+------------------------------------------------------------------
+#1	1498063511204761601		68477
+#2	1089023364973219840		28128
+#3	826332877457481728 		27718
+#4	1250331934242123776		25350
+#5	1423662808311287813		21034
+#6	1183144981252280322		20765
+#7	1270672820792508417		20503
+#8	820431428835885059 		20063
+#9	778785859030003712 		19403
+#10	1104295492433764353		18781
+
+
+Greater Capital City	Number of Tweets Made
+--------------------------------------------
+2gmel				2272377
+1gsyd				2116618
+3gbri				856492
+5gper				589480
+4gade				451838
+8acte				202473
+6ghob				90123
+7gdar				46384
+9oter				182
+
+
+Rank Author Id           Number of Unique City Locations and #Tweets       
+---------------------------------------------------------------------------------
+#1   1429984556451389440 8 (#1920 tweets - 1880gmel, 7gper, 13acte, 10gsyd, 6gbri, 2gade, 1ghob, 1gdar)
+#2   17285408            8 (#1209 tweets - 1061gsyd, 40gbri, 23acte, 11ghob, 7gper, 60gmel, 3gade, 4gdar)
+#3   702290904460169216  8 (#1120 tweets - 110gade, 286gsyd, 219gbri, 40ghob, 248gmel, 20gdar, 151gper, 46acte)
+#4   87188071            8 (#391 tweets - 84gmel, 15ghob, 109gsyd, 64gbri, 51gper, 34acte, 29gade, 5gdar)
+#5   774694926135222272  8 (#272 tweets - 37gbri, 36ghob, 37gsyd, 38gmel, 34gper, 34acte, 28gade, 28gdar)
+#6   1361519083          8 (#260 tweets - 193gdar, 36gmel, 12gsyd, 2ghob, 6acte, 1gper, 9gade, 1gbri)
+#7   502381727           8 (#250 tweets - 214gmel, 8gbri, 8ghob, 4gade, 10acte, 3gper, 1gdar, 2gsyd)
+#8   921197448885886977  8 (#199 tweets - 46gsyd, 56gmel, 20gade, 37gbri, 28gper, 4ghob, 7acte, 1gdar)
+#9   601712763           8 (#146 tweets - 44gsyd, 39gmel, 14gper, 11gbri, 8ghob, 19gade, 10acte, 1gdar)
+#10  2647302752          8 (#80 tweets - 32gbri, 3gade, 13gsyd, 4gper, 16gmel, 3gdar, 5ghob, 4acte)
+
+
+Process 0 finished search 1136535 tweets in: 142.38790 seconds
+
+Process 0 search 1136535 tweets in rate: 7981.96344 tweets/second
+
+Process 1 finished search 1136535 tweets in: 141.02645 seconds
+
+Process 1 search 1136535 tweets in rate: 8059.02028 tweets/second
+
+Process 2 finished search 1136534 tweets in: 141.44140 seconds
+
+Process 2 search 1136534 tweets in rate: 8035.37020 tweets/second
+
+Process 3 finished search 1136534 tweets in: 138.42485 seconds
+
+Process 3 search 1136534 tweets in rate: 8210.47656 tweets/second
+
+Process 4 finished search 1136534 tweets in: 139.01053 seconds
+
+Process 4 search 1136534 tweets in rate: 8175.88423 tweets/second
+
+Process 5 finished search 1136534 tweets in: 140.97784 seconds
+
+Process 5 search 1136534 tweets in rate: 8061.79169 tweets/second
+
+Process 6 finished search 1136534 tweets in: 138.70155 seconds
+
+Process 6 search 1136534 tweets in rate: 8194.09740 tweets/second
+
+Process 7 finished search 1136534 tweets in: 140.45483 seconds
+
+Process 7 search 1136534 tweets in rate: 8091.81170 tweets/second
+
+Time spent in the sequential portion on load data: 0.02465 seconds
+
+Time spent in the sequential portion on loop through json object: 489.57205 seconds
+
+Time spent in the sequential portion on output result: 0.84540 seconds
+
+Time spent in the sequential portion: 490.44210 seconds
+
+Note: process 0 cost 146.14386 seconds to send information to other process in sequential portion
+
+Task finished process 9092274 tweets
+
+Task Elapsed time: 633.23257 seconds
+
+Job ID           : 46143901
+Cluster          : spartan
+User/Project     : tianhaol2/comp90024
+Nodes            : 1
+Wall-clock time  : 00:10:44 / 12:00:00
+
+Displaying overall resources usage from 2023-04-06 17:41:39 to 2023-04-06 17:52:23:
+
+NODE            CPU#        TOT%   ( USR   / SYS   / WIO   / IDLE  ) 
+
+spartan-bm116 : 
+                CPU# 1    : 96.4   (  94.5 /   1.8 /   0.0 /   3.6 ) 
+                CPU# 2    : 96.3   (  96.0 /   0.4 /   0.0 /   3.7 ) 
+                CPU# 3    : 96.9   (  96.5 /   0.4 /   0.0 /   3.1 ) 
+                CPU# 4    : 98.0   (  97.5 /   0.4 /   0.0 /   2.0 ) 
+                CPU# 5    : 97.0   (  96.6 /   0.4 /   0.0 /   3.0 ) 
+                CPU# 6    : 97.5   (  97.1 /   0.4 /   0.0 /   2.5 ) 
+                CPU# 7    : 96.4   (  95.9 /   0.5 /   0.0 /   3.6 ) 
+                CPU# 8    : 96.3   (  96.0 /   0.3 /   0.0 /   3.7 ) 
+
+
+Allocated CPUs            : 8    
+  CPUs with usage <25%    : 0    
+  CPUs with usage <50%    : 0    
+  CPUs with usage >50%    : 8    
+
+Memory used (RAM)         : 0.0%  [5MB of 32000MB]
+
+--------------------------------------------
+
