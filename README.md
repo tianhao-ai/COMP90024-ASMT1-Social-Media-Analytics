@@ -5,7 +5,7 @@ This program counts the 1. number of tweets made by different author ids, 2. The
 
 # Update from Teaching Teams
 
-The work gets 8/10. Based on the feedback from the teaching teams, this project can be improved by all the ranks can read the file instead of using rank 0 to send data to other ranks.
+This work gets 8/10. Based on the feedback from the teaching teams, this project can be improved by all the ranks can read the file instead of using rank 0 to send data to other ranks.
 
 # Prerequisites
 To run this program, you will need:
