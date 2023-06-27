@@ -62,6 +62,7 @@ If you cannot run the above command you could have tried following:
 ```mpirun -n 2 python twitterSearch.py tinyTwitter.json```  
 
 Or change ```python``` to ```python3```
+(Note: We not provide the file of `tinyTwitter.json` and `sal.json` due to the reason of copyright)
     
 The program will count the 1. number of tweets made by different author ids, 2. The number of tweets made by different great capital cities, 3. The number of different unique capital cities tweets by author in the <file_name.json> file and present the top 10.
 
