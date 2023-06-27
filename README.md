@@ -3,6 +3,10 @@
 # Counting Tweets
 This program counts the 1. number of tweets made by different author ids, 2. The number of tweets made by different great capital cities, 3. The number of different unique capital cities tweets by author in a JSON file using MPI (Message Passing Interface) to distribute the computation across multiple processes.
 
+# Update from Teaching Teams
+
+The work gets 8/10. Based on the feedback from the teaching teams, this project can be improved by all the ranks can read the file instead of using rank 0 to send data to other ranks.
+
 # Prerequisites
 To run this program, you will need:
 
