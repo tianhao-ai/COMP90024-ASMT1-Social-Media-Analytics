@@ -1,4 +1,4 @@
-# Cluster and Cloud Computing Assignment 1 – Social Media Analytics 
+# Comp90024 Cluster and Cloud Computing Assignment 1 – Social Media Analytics 
 
 # Counting Tweets
 This program counts the 1. number of tweets made by different author ids, 2. The number of tweets made by different great capital cities, 3. The number of different unique capital cities tweets by author in a JSON file using MPI (Message Passing Interface) to distribute the computation across multiple processes.
